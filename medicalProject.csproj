@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{457CF152-DAD5-4CE0-8C92-B4A32AF5B3AE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>medicalProject</RootNamespace>
+    <AssemblyName>medicalProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Account.aspx" />
+    <Content Include="Admin\AddCities.aspx" />
+    <Content Include="Admin\AddMembers.aspx" />
+    <Content Include="Admin\AdminHome.aspx" />
+    <Content Include="Admin\ImportData.aspx" />
+    <Content Include="Admin\_Dataset.aspx" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\admin.jpg" />
+    <Content Include="images\age wise.jpg" />
+    <Content Include="images\changepassword.jpg" />
+    <Content Include="images\contact-bg.jpg" />
+    <Content Include="images\ContactUs.jpg" />
+    <Content Include="images\deletebtn.jpg" />
+    <Content Include="images\DeleteRed.png" />
+    <Content Include="images\divider-bg.jpg" />
+    <Content Include="images\edit-10-xxl.png" />
+    <Content Include="images\hospital1.png" />
+    <Content Include="images\hospital2.png" />
+    <Content Include="images\hospital3.jpg" />
+    <Content Include="images\hospital4.jpg" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\logo-Fireworks-source.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\newsletter-bg.jpg" />
+    <Content Include="images\portfolio-img1.jpg" />
+    <Content Include="images\portfolio-img2.jpg" />
+    <Content Include="images\portfolio-img3.jpg" />
+    <Content Include="images\portfolio-img4.jpg" />
+    <Content Include="images\portfolio-img5.jpg" />
+    <Content Include="images\portfolio-img6.jpg" />
+    <Content Include="images\slider\1.jpg" />
+    <Content Include="images\slider\2.jpg" />
+    <Content Include="images\team1.jpg" />
+    <Content Include="images\team2.jpg" />
+    <Content Include="images\team3.jpg" />
+    <Content Include="images\templatemo_banner_bg.jpg" />
+    <Content Include="images\templatemo_banner_image_bg.png" />
+    <Content Include="images\templatemo_banner_repeat.jpg" />
+    <Content Include="images\templatemo_button_01.png" />
+    <Content Include="images\templatemo_footer_bg.jpg" />
+    <Content Include="images\templatemo_footer_title_bg.png" />
+    <Content Include="images\templatemo_header_01_bg.jpg" />
+    <Content Include="images\templatemo_header_02_bg.jpg" />
+    <Content Include="images\templatemo_header_bg.jpg" />
+    <Content Include="images\templatemo_menu_divider.jpg" />
+    <Content Include="images\templatemo_menu_left.jpg" />
+    <Content Include="images\templatemo_menu_right.jpg" />
+    <Content Include="images\templatemo_side_column_divider.jpg" />
+    <Content Include="JQuery\jquery.js" />
+    <Content Include="JQuery\themes\flora\flora.accordion.css" />
+    <Content Include="JQuery\themes\flora\flora.all.css" />
+    <Content Include="JQuery\themes\flora\flora.css" />
+    <Content Include="JQuery\themes\flora\flora.datepicker.css" />
+    <Content Include="JQuery\themes\flora\flora.dialog.css" />
+    <Content Include="JQuery\themes\flora\flora.resizable.css" />
+    <Content Include="JQuery\themes\flora\flora.slider.css" />
+    <Content Include="JQuery\themes\flora\flora.tabs.css" />
+    <Content Include="JQuery\themes\flora\i\accordion-left-act.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-left-over.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-left.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-middle-act.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-middle-over.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-middle.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-right-act.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-right-over.png" />
+    <Content Include="JQuery\themes\flora\i\accordion-right.png" />
+    <Content Include="JQuery\themes\flora\i\dialog-e.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-n.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-ne.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-nw.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-s.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-se.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-sw.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-title.gif" />
+    <Content Include="JQuery\themes\flora\i\dialog-titlebar-close-hover.png" />
+    <Content Include="JQuery\themes\flora\i\dialog-titlebar-close.png" />
+    <Content Include="JQuery\themes\flora\i\dialog-w.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-e.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-n.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-ne.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-nw.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-s.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-se.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-sw.gif" />
+    <Content Include="JQuery\themes\flora\i\resizable-w.gif" />
+    <Content Include="JQuery\themes\flora\i\slider-bg-1.png" />
+    <Content Include="JQuery\themes\flora\i\slider-bg-2.png" />
+    <Content Include="JQuery\themes\flora\i\slider-handle.gif" />
+    <Content Include="JQuery\themes\flora\i\tabs.png" />
+    <Content Include="JQuery\themes\ui.datepicker.css" />
+    <Content Include="JQuery\ui\effects.blind.js" />
+    <Content Include="JQuery\ui\effects.bounce.js" />
+    <Content Include="JQuery\ui\effects.clip.js" />
+    <Content Include="JQuery\ui\effects.core.js" />
+    <Content Include="JQuery\ui\effects.drop.js" />
+    <Content Include="JQuery\ui\effects.explode.js" />
+    <Content Include="JQuery\ui\effects.fold.js" />
+    <Content Include="JQuery\ui\effects.highlight.js" />
+    <Content Include="JQuery\ui\effects.pulsate.js" />
+    <Content Include="JQuery\ui\effects.scale.js" />
+    <Content Include="JQuery\ui\effects.shake.js" />
+    <Content Include="JQuery\ui\effects.slide.js" />
+    <Content Include="JQuery\ui\effects.transfer.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-ar.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-bg.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-ca.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-cs.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-da.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-de.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-es.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-fi.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-fr.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-he.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-hu.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-hy.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-id.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-is.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-it.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-ja.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-ko.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-lt.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-lv.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-nl.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-no.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-pl.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-pt-BR.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-ro.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-ru.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-sk.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-sv.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-th.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-tr.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-uk.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-zh-CN.js" />
+    <Content Include="JQuery\ui\i18n\ui.datepicker-zh-TW.js" />
+    <Content Include="JQuery\ui\jquery.ui.all.js" />
+    <Content Include="JQuery\ui\minified\effects.blind.min.js" />
+    <Content Include="JQuery\ui\minified\effects.bounce.min.js" />
+    <Content Include="JQuery\ui\minified\effects.clip.min.js" />
+    <Content Include="JQuery\ui\minified\effects.core.min.js" />
+    <Content Include="JQuery\ui\minified\effects.drop.min.js" />
+    <Content Include="JQuery\ui\minified\effects.explode.min.js" />
+    <Content Include="JQuery\ui\minified\effects.fold.min.js" />
+    <Content Include="JQuery\ui\minified\effects.highlight.min.js" />
+    <Content Include="JQuery\ui\minified\effects.pulsate.min.js" />
+    <Content Include="JQuery\ui\minified\effects.scale.min.js" />
+    <Content Include="JQuery\ui\minified\effects.shake.min.js" />
+    <Content Include="JQuery\ui\minified\effects.slide.min.js" />
+    <Content Include="JQuery\ui\minified\effects.transfer.min.js" />
+    <Content Include="JQuery\ui\minified\jquery.ui.all.min.js" />
+    <Content Include="JQuery\ui\minified\ui.accordion.min.js" />
+    <Content Include="JQuery\ui\minified\ui.core.min.js" />
+    <Content Include="JQuery\ui\minified\ui.datepicker.min.js" />
+    <Content Include="JQuery\ui\minified\ui.dialog.min.js" />
+    <Content Include="JQuery\ui\minified\ui.draggable.min.js" />
+    <Content Include="JQuery\ui\minified\ui.droppable.min.js" />
+    <Content Include="JQuery\ui\minified\ui.resizable.min.js" />
+    <Content Include="JQuery\ui\minified\ui.selectable.min.js" />
+    <Content Include="JQuery\ui\minified\ui.slider.min.js" />
+    <Content Include="JQuery\ui\minified\ui.sortable.min.js" />
+    <Content Include="JQuery\ui\minified\ui.tabs.min.js" />
+    <Content Include="JQuery\ui\packed\effects.blind.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.bounce.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.clip.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.core.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.drop.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.explode.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.fold.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.highlight.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.pulsate.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.scale.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.shake.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.slide.packed.js" />
+    <Content Include="JQuery\ui\packed\effects.transfer.packed.js" />
+    <Content Include="JQuery\ui\packed\jquery.ui.all.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.accordion.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.core.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.datepicker.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.dialog.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.draggable.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.droppable.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.resizable.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.selectable.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.slider.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.sortable.packed.js" />
+    <Content Include="JQuery\ui\packed\ui.tabs.packed.js" />
+    <Content Include="JQuery\ui\ui.accordion.js" />
+    <Content Include="JQuery\ui\ui.core.js" />
+    <Content Include="JQuery\ui\ui.datepicker.js" />
+    <Content Include="JQuery\ui\ui.dialog.js" />
+    <Content Include="JQuery\ui\ui.draggable.js" />
+    <Content Include="JQuery\ui\ui.droppable.js" />
+    <Content Include="JQuery\ui\ui.resizable.js" />
+    <Content Include="JQuery\ui\ui.selectable.js" />
+    <Content Include="JQuery\ui\ui.slider.js" />
+    <Content Include="JQuery\ui\ui.sortable.js" />
+    <Content Include="JQuery\ui\ui.tabs.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\imagesloaded.min.js" />
+    <Content Include="js\isotope.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\smoothscroll.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="Member\Account.aspx" />
+    <Content Include="Member\Dataset.aspx" />
+    <Content Include="Member\Import.aspx" />
+    <Content Include="Member\MemberHome.aspx" />
+    <Content Include="Member\_AprioriAlgorithm.aspx" />
+    <Content Include="Member\_Dataset.aspx" />
+    <Content Include="Signout.aspx" />
+    <Content Include="Visitor\Aboutus.aspx" />
+    <Content Include="Visitor\Contactus.aspx" />
+    <Content Include="Visitor\Index.aspx" />
+    <Content Include="Visitor\Info.aspx" />
+    <Content Include="Visitor\Login.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Account.aspx.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Account.aspx.designer.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCities.aspx.cs">
+      <DependentUpon>AddCities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCities.aspx.designer.cs">
+      <DependentUpon>AddCities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddMembers.aspx.cs">
+      <DependentUpon>AddMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddMembers.aspx.designer.cs">
+      <DependentUpon>AddMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMasterpage.Master.cs">
+      <DependentUpon>AdminMasterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMasterpage.Master.designer.cs">
+      <DependentUpon>AdminMasterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ImportData.aspx.cs">
+      <DependentUpon>ImportData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ImportData.aspx.designer.cs">
+      <DependentUpon>ImportData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_Dataset.aspx.cs">
+      <DependentUpon>_Dataset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_Dataset.aspx.designer.cs">
+      <DependentUpon>_Dataset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL.cs" />
+    <Compile Include="ClassRules.cs" />
+    <Compile Include="DL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryUtils.cs" />
+    <Compile Include="Member\Account.aspx.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\Account.aspx.designer.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\Dataset.aspx.cs">
+      <DependentUpon>Dataset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\Dataset.aspx.designer.cs">
+      <DependentUpon>Dataset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\Import.aspx.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\Import.aspx.designer.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\MemberHome.aspx.cs">
+      <DependentUpon>MemberHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\MemberHome.aspx.designer.cs">
+      <DependentUpon>MemberHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\MemberMasterpage.Master.cs">
+      <DependentUpon>MemberMasterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\MemberMasterpage.Master.designer.cs">
+      <DependentUpon>MemberMasterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Member\_AprioriAlgorithm.aspx.cs">
+      <DependentUpon>_AprioriAlgorithm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\_AprioriAlgorithm.aspx.designer.cs">
+      <DependentUpon>_AprioriAlgorithm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\_Dataset.aspx.cs">
+      <DependentUpon>_Dataset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\_Dataset.aspx.designer.cs">
+      <DependentUpon>_Dataset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signout.aspx.cs">
+      <DependentUpon>Signout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signout.aspx.designer.cs">
+      <DependentUpon>Signout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Aboutus.aspx.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Aboutus.aspx.designer.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Contactus.aspx.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Contactus.aspx.designer.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Info.aspx.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Info.aspx.designer.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\VisitorMasterpage.Master.cs">
+      <DependentUpon>VisitorMasterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\VisitorMasterpage.Master.designer.cs">
+      <DependentUpon>VisitorMasterpage.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminMasterpage.Master" />
+    <None Include="DL.xsc">
+      <DependentUpon>DL.xsd</DependentUpon>
+    </None>
+    <None Include="DL.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DL.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DL.xss">
+      <DependentUpon>DL.xsd</DependentUpon>
+    </None>
+    <Content Include="Visitor\VisitorMasterpage.Master" />
+    <Content Include="Member\MemberMasterpage.Master" />
+    <None Include="Files\Hosptial_Data.xls" />
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.svg" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.svg" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2554</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
